@@ -1,0 +1,8 @@
+# Visual Studio specific files
+/*.suo
+/*.sdf
+/*.opensdf
+
+# Visual Studio output directories
+/*/bin
+/*/obj
