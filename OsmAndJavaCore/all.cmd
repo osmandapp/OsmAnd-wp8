@@ -31,9 +31,9 @@ echo Architecture: %arch%
 
 REM Detect avian-compatible build mode
 if "%2"=="Debug" (
-	set mode=-debug
+	set mode=debug
 ) else if "%2"=="Release" (
-	set mode=
+	set mode=fast
 ) else (
 	echo Invalid configuration: %2
 	exit /b -1

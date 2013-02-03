@@ -5,7 +5,10 @@ OUTPUT=$1
 OSMAND_ROOT=../..
 OSMAND_JAVA_CORE=$OSMAND_ROOT/core/OsmAnd-java
 AVIAN_ARCH=$2
-AVIAN_FLAVOR=$3
+AVIAN_FLAVOR=-$3
+if [ "$AVIAN_FLAVOR" == "-fast" ]; then
+	AVIAN_FLAVOR=
+fi
 AVIAN=../../avian/core
 AVIAN_BIN=$AVIAN/build/wp8-$AVIAN_ARCH$AVIAN_FLAVOR-bootimage
 
