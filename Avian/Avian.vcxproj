@@ -64,28 +64,28 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <NMakeBuildCommandLine>$(ProjectDir)all.cmd $(PlatformTarget) $(Configuration) build</NMakeBuildCommandLine>
-    <NMakeOutput>sadfs/jvm.dll</NMakeOutput>
+    <NMakeOutput>$(ProjectDir)..\..\avian\core\build\wp8-i386-debug-bootimage\jvm.winmd</NMakeOutput>
     <NMakeCleanCommandLine>$(ProjectDir)all.cmd $(PlatformTarget) $(Configuration) clean</NMakeCleanCommandLine>
     <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeReBuildCommandLine>$(ProjectDir)all.cmd $(PlatformTarget) $(Configuration) rebuild</NMakeReBuildCommandLine>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <NMakeBuildCommandLine>$(ProjectDir)all.cmd $(PlatformTarget) $(Configuration) build</NMakeBuildCommandLine>
-    <NMakeOutput>sadfs/jvm.dll</NMakeOutput>
+    <NMakeOutput>$(ProjectDir)..\..\avian\core\build\wp8-arm-debug-bootimage\jvm.winmd</NMakeOutput>
     <NMakeCleanCommandLine>$(ProjectDir)all.cmd $(PlatformTarget) $(Configuration) clean</NMakeCleanCommandLine>
     <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeReBuildCommandLine>$(ProjectDir)all.cmd $(PlatformTarget) $(Configuration) rebuild</NMakeReBuildCommandLine>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <NMakeBuildCommandLine>$(ProjectDir)all.cmd $(PlatformTarget) $(Configuration) build</NMakeBuildCommandLine>
-    <NMakeOutput>Avian.exe</NMakeOutput>
+    <NMakeOutput>$(ProjectDir)..\..\avian\core\build\wp8-i386-bootimage\jvm.winmd</NMakeOutput>
     <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeReBuildCommandLine>$(ProjectDir)all.cmd $(PlatformTarget) $(Configuration) rebuild</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>$(ProjectDir)all.cmd $(PlatformTarget) $(Configuration) clean</NMakeCleanCommandLine>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <NMakeBuildCommandLine>$(ProjectDir)all.cmd $(PlatformTarget) $(Configuration) build</NMakeBuildCommandLine>
-    <NMakeOutput>Avian.exe</NMakeOutput>
+    <NMakeOutput>$(ProjectDir)..\..\avian\core\build\wp8-arm-bootimage\jvm.winmd</NMakeOutput>
     <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeReBuildCommandLine>$(ProjectDir)all.cmd $(PlatformTarget) $(Configuration) rebuild</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>$(ProjectDir)all.cmd $(PlatformTarget) $(Configuration) clean</NMakeCleanCommandLine>

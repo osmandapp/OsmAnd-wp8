@@ -140,6 +140,28 @@
       <Name>OsmAndNativeComponent</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jvm" Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+      <HintPath>$(ProjectDir)..\..\avian\core\build\wp8-i386-debug-bootimage\jvm.winmd</HintPath>
+	  <SpecificVersion>False</SpecificVersion>
+	  <Private>False</Private>
+    </Reference>
+	<Reference Include="jvm" Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+      <HintPath>$(ProjectDir)..\..\avian\core\build\wp8-i386-bootimage\jvm.winmd</HintPath>
+	  <SpecificVersion>False</SpecificVersion>
+	  <Private>False</Private>
+    </Reference>
+	<Reference Include="jvm" Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+      <HintPath>$(ProjectDir)..\..\avian\core\build\wp8-arm-debug-bootimage\jvm.winmd</HintPath>
+	  <SpecificVersion>False</SpecificVersion>
+	  <Private>False</Private>
+    </Reference>
+	<Reference Include="jvm" Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+      <HintPath>$(ProjectDir)..\..\avian\core\build\wp8-arm-bootimage\jvm.winmd</HintPath>
+	  <SpecificVersion>False</SpecificVersion>
+	  <Private>False</Private>
+    </Reference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
