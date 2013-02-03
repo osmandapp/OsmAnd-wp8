@@ -2,11 +2,8 @@
 /*.suo
 /*.sdf
 /*.opensdf
+/*.user
+/*.filters
 
 # Visual Studio output directories
-/*/bin
-/*/obj
 /*/
-!/.nuget/
-!/OsmAnd/
-!/OsmAndNativeComponent/
