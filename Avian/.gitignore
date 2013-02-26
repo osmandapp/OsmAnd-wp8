@@ -1,9 +1,0 @@
-# Visual Studio specific files
-/*.suo
-/*.sdf
-/*.opensdf
-/*.user
-/*.filters
-
-# Visual Studio output directories
-/*/

@@ -127,14 +127,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\avian\wp8\interop\avian-interop-client\AvianInteropClient.vcxproj">
-      <Project>{13427079-F020-473D-B861-EAA73D9F53A4}</Project>
-      <Name>AvianInteropClient</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\avian\wp8\interop\avian-interop-host\AvianInteropHost.csproj">
-      <Project>{212FCFA2-AD49-4A20-99ED-3F2FB2179776}</Project>
-      <Name>AvianInteropHost</Name>
-    </ProjectReference>
     <ProjectReference Include="..\OsmAndNativeComponent\OsmAndNativeComponent.vcxproj">
       <Project>{B05B65E4-0159-4A5B-B6A3-B73CF14E405B}</Project>
       <Name>OsmAndNativeComponent</Name>
@@ -143,19 +135,19 @@
   <ItemGroup>
     <Reference Include="jvm" Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
       <HintPath>$(ProjectDir)..\..\avian\core\build\wp8-i386-debug-bootimage\jvm.winmd</HintPath>
-	  <SpecificVersion>False</SpecificVersion>
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
-	<Reference Include="jvm" Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Reference Include="jvm" Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
       <HintPath>$(ProjectDir)..\..\avian\core\build\wp8-i386-bootimage\jvm.winmd</HintPath>
-	  <SpecificVersion>False</SpecificVersion>
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
-	<Reference Include="jvm" Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <Reference Include="jvm" Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
       <HintPath>$(ProjectDir)..\..\avian\core\build\wp8-arm-debug-bootimage\jvm.winmd</HintPath>
-	  <SpecificVersion>False</SpecificVersion>
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
-	<Reference Include="jvm" Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <Reference Include="jvm" Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
       <HintPath>$(ProjectDir)..\..\avian\core\build\wp8-arm-bootimage\jvm.winmd</HintPath>
-	  <SpecificVersion>False</SpecificVersion>
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />

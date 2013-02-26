@@ -84,7 +84,6 @@
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>ole32.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
-      <AdditionalDependencies>$(ProjectDir)..\..\binaries\wp8\OsmAndJavaCore\$(Platform)\$(Configuration)\resources.obj;$(ProjectDir)..\..\binaries\wp8\OsmAndJavaCore\$(Platform)\$(Configuration)\codeimage.obj;$(ProjectDir)..\..\binaries\wp8\OsmAndJavaCore\$(Platform)\$(Configuration)\bootimage.obj;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -99,7 +98,6 @@
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>ole32.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
-      <AdditionalDependencies>$(ProjectDir)..\..\binaries\wp8\OsmAndJavaCore\$(Platform)\$(Configuration)\resources.obj;$(ProjectDir)..\..\binaries\wp8\OsmAndJavaCore\$(Platform)\$(Configuration)\codeimage.obj;$(ProjectDir)..\..\binaries\wp8\OsmAndJavaCore\$(Platform)\$(Configuration)\bootimage.obj;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
@@ -114,7 +112,6 @@
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>ole32.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
-      <AdditionalDependencies>$(ProjectDir)..\..\binaries\wp8\OsmAndJavaCore\$(Platform)\$(Configuration)\resources.obj;$(ProjectDir)..\..\binaries\wp8\OsmAndJavaCore\$(Platform)\$(Configuration)\codeimage.obj;$(ProjectDir)..\..\binaries\wp8\OsmAndJavaCore\$(Platform)\$(Configuration)\bootimage.obj;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
@@ -129,7 +126,6 @@
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>ole32.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
-      <AdditionalDependencies>$(ProjectDir)..\..\binaries\wp8\OsmAndJavaCore\$(Platform)\$(Configuration)\resources.obj;$(ProjectDir)..\..\binaries\wp8\OsmAndJavaCore\$(Platform)\$(Configuration)\codeimage.obj;$(ProjectDir)..\..\binaries\wp8\OsmAndJavaCore\$(Platform)\$(Configuration)\bootimage.obj;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
